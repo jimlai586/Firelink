@@ -1,13 +1,12 @@
-# SwiftStarter
-A Swift iOS-development starter kit 
+> Very well.
+Then touch the darkness within me.
+Take nourishment from these sovereignless souls.
 
-An opinionated development kit basing on the frameworks that are great on their own, 
-and they are greater together.
+A showcase of development flow.
 
+An experimental ground to try new ideas.
 
-### Usage
-
-Clone the project, use it as a template. Change project name and you are good to go.
+It also serves as a template to quickly get environment up and running.
 
 ### Battery included 
 
@@ -16,22 +15,43 @@ Clone the project, use it as a template. Change project name and you are good to
 * Alamofire
 * Siesta
 * Nimble
+* Fastlane
 
-Note that all except Nimble are included via Carthage, where Nimble are added as a git submodule.
+### Why Siesta
 
-### Siesta setup
+Compared to Alamofire, Siesta is less known. There are also other similar frameworks like Maya.
 
-Siesta is great, but it requires additional efforts to set it up, which motivates this repo in first place.
+So why choose it? 
 
-This kit/template sets up all required steps for you to just jump in and use.
+In fact I have all my projects, in company or otherwise built around it. 
 
-The organization and setup are based on my experience of using it in production so far.
+**When you refactor Alamofire, you get Siesta**
 
-### SwiftLayout option
+I realized this, when I ... you've guessed it, refactored Alamofre.
 
-You may integrate my other repo SwiftLayout in this, to have a very enjoyable Swift development experience.
+### 1 + 1 > 2
 
+This happens when you add Siesta and SwiftyJSON together. 
 
+You need to do some extension and add helper functions of course. 
+
+But the result... 
+
+**My team chose it as de facto standard library to be used in all projects onwards
+
+### FRP done right
+
+It currently contains an example that compares this flow to RxSwift.
+
+[You can read more about in my medium article](https://medium.com/@swift2931/why-rxswift-may-not-be-the-solution-you-are-looking-for-705fafdae6a2)
+
+### RxSwift = RxJava + KVO
+
+**Repeat after me. Static Dispatch**
+
+Observable is type-erased bullshit based on false premesis that everyhing is a stream. 
+
+**It is NOT. Even when I write live streaming code, I use callback with concrete type.**
 
 
 
